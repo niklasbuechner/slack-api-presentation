@@ -1,0 +1,25 @@
+{
+  "name": "slack-api-presentation",
+  "version": "1.0.0",
+  "description": "Vortrag zur c't <webdev> über Slackbots",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklasbuechner/slack-api-presentation.git"
+  },
+  "author": "Niklas Büchner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niklasbuechner/slack-api-presentation/issues"
+  },
+  "homepage": "https://github.com/niklasbuechner/slack-api-presentation#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0"
+  }
+}

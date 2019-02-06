@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* Generell */
+* {
+    font-family: 'Ubuntu';
+    text-align: left;
+}
+
+.reveal {
+    font-size: 2vw;
+}
+
+.reveal p {
+    text-align: center;
+    line-height: 60pt;
+}
+
+.reveal h2, .reveal h3, .reveal section ul {
+    text-align: left;
+}
+
+.reveal .slides > section {
+    padding: 0 40px;
+    height: 100%;
+    width: 91vw;
+}
+
+.reveal code {
+    font-family: monospace;
+    font-size: 18pt;
+    line-height: 20pt;
+    text-align: left;
+    padding: 1vw;
+    margin: 1vw auto;
+    width: 70vw;
+}
+
+.reveal p > img {
+    max-width: 70vw;
+    padding: 1vw;
+    margin: auto;
+}
+
+.reveal .slide-number {
+    background: rgba(0, 0, 0, 0);
+    right: 2vw;
+    bottom: 2vw;
+}
+.reveal .slide-number a {
+    font-family: Ubuntu;
+    font-size: 26pt;
+    text-decoration: none;
+}
+.reveal .slide-number a span {
+    color: black;
+}
+
+/* Title slide */
+.reveal .title-slide-logo {
+    display: block;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: -5vw;
+    text-align: center;
+    top: 0;
+}
+
+.reveal h2 {
+    margin: auto;
+    text-align: center;
+    max-width: 1200px;
+    font-size: 64pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 78pt;
+}
+
+.reveal .half-height-image-left {
+    max-width: 40vw;
+    float: left;
+}
+
+.reveal .half-height-image-right {
+    max-width: 40vw;
+    float: right;
+}
+
+/* Pickware header */
+.reveal h3::before {
+    content: url('../../public/images/pickware-logo-small.png');
+    position: relative;
+    top: 2.4vw;
+    margin-right: 2vw;
+}
+.reveal h3 {
+    font-size: 42pt;
+    margin-bottom: 4vw;
+    margin-top: -5vw;
+}
+
+/* List items */
+.reveal li {
+    margin-left: 3vw;
+    line-height: 6vw;
+}
+
+/* Introduction slide */
+.reveal .image-me {
+    width: 30vw;
+    float: right;
+    margin-right: 10vw;
+}
+
+/* Slack introduction */
+.reveal img.full-screen-image {
+    text-align: center;
+    max-height: 70vh;
+    max-width: 80vw;
+}
