@@ -20,6 +20,6 @@
     "axios": "^0.18.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^5.3.1"
   }
 }
